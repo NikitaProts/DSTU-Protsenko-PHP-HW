@@ -1,3 +1,8 @@
+<?php
+require 'db.php';?>
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -5,6 +10,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="style.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -22,10 +29,13 @@
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
+      <?php  if($_SESSION['user']['user_mode'] == 'admin') :?>
         <a class="nav-link" href="create.php">Create author</a>
         <a class="nav-link" href="create_book.php">Create book</a>
         <a class="nav-link" href="create_genre.php">Create genre</a>
+        <?php endif; ?>
         <a class="nav-link" href="inquiry.php">Inquiry</a>
+        <a class="nav-link" href="register_index.php">authorization</a>
       </li>
       
       
