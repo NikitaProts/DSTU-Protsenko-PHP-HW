@@ -34,8 +34,10 @@ require 'db.php';?>
         <a class="nav-link" href="create_book.php">Create book</a>
         <a class="nav-link" href="create_genre.php">Create genre</a>
         <?php endif; ?>
+        <a class="nav-link" href="book_test.php">Test</a>
         <a class="nav-link" href="inquiry.php">Inquiry</a>
         <a class="nav-link" href="register_index.php">authorization</a>
+        
       </li>
       
       
