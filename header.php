@@ -37,6 +37,10 @@ require 'db.php';?>
         <a class="nav-link" href="book_test.php">Test</a>
         <a class="nav-link" href="inquiry.php">Inquiry</a>
         <a class="nav-link" href="register_index.php">authorization</a>
+        <a class="nav-link" href="lab4_1.php">Lab4_1</a>
+        <a class="nav-link" href="lab4_2.php">Lab4_2</a>
+        <a class="nav-link" href="lab4_3.php">Lab4_34</a>
+
         
       </li>
       

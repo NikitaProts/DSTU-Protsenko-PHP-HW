@@ -15,10 +15,6 @@ if (isset ($_POST['title'])  && isset($_POST['description']) && isset($_POST['ye
     $title = $_POST['title'];
     $description = $_POST['description'];
     $year_release = $_POST['year_release'];
-
-
-
-
     $author_id = $_POST['author_id'];
     $genre_id = $_POST['genre_id'];
   $sql = 'INSERT INTO books(title, description, year_release,author_id, genre_id ) VALUES(:title, :description, :year_release, :author_id, :genre_id)';
