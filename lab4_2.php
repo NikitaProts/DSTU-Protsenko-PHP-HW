@@ -113,7 +113,7 @@
     //$my_authors->create_author($data->connection, 'Test', '2000-05-06', '1799-05-06');
     //$my_authors->edit_author($data->connection, 11, 'Nikita', '2000-05-06', '1799-05-06');
     //$my_authors->delete_author($data->connection, 11);
-    //print_r($my_authors);
+    print_r($my_authors);
 
     $my_books = new Book($data->connection);
     //$my_books->create_book($data->connection, 'Test', 'test', '1999', '3', '3');

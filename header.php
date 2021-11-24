@@ -40,6 +40,7 @@ require 'db.php';?>
         <a class="nav-link" href="lab4_1.php">Lab4_1</a>
         <a class="nav-link" href="lab4_2.php">Lab4_2</a>
         <a class="nav-link" href="lab4_3.php">Lab4_34</a>
+        <a class="nav-link" href="lab_5.php">Lab5</a>
 
         
       </li>
